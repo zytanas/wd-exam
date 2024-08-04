@@ -1,0 +1,292 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 1920px !important;
+    max-height: 980px !important;
+}
+
+.home-content {
+    width: 100%;
+    position: relative;
+}
+
+.home-content img {
+    width: 100%;
+    height: 15%;
+    opacity: 50%;
+}
+
+.header {
+    position: absolute;
+    top: 6%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+
+.header h2 {
+    font-size: 39px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.home-cta h2 {
+    font-size: 39px;
+    line-height: 8rem;
+}
+
+.home-cta p {
+    color: #c0c0c0;
+    margin-bottom: 5rem;
+}
+
+.home-cta {
+    max-width: 1300px !important;
+    margin-left: 19rem;
+}
+
+.cta-btn {
+    margin-right: 25rem;
+    width: 250px;
+    height: 59px;
+    background-color: #005CA6;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: solid #005CA6;
+    cursor: pointer;
+}
+
+.cta-btn:hover{
+    background-color: #004494;
+}
+
+.home-about {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.home-about img {
+    width: 100%;
+    height: 450px;
+    opacity: 34%;
+}
+
+.header-about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-about h2 {
+    font-size: 39px;
+    margin-bottom: 2rem;
+}
+
+.header-about p {
+    color: #c0c0c0;
+    text-align: justify;
+}
+
+
+.how-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-section h2 {
+    font-size: 39px;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.how-section p {
+    color: #c0c0c0;
+}
+
+.platform-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.platform-container h2 {
+    font-size: 39px;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.members-content {
+    display: flex;
+    align-items: center;
+}
+
+.members-img img {
+    width:30%;
+    margin-left: 19rem;
+    opacity: 100%;
+}
+
+.members-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+}
+
+.members-content h2 {
+    font-size: 32px;
+    text-align: start;
+    margin-top: 0;
+}
+
+.members-content p {
+    color: #c0c0c0;
+    margin-top: 1rem;
+    text-align: start;
+}
+
+.safety-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.safety-img img {
+    width:50%;
+    margin-left: 10rem;
+    opacity: 100%;
+    display: block;
+    flex-direction: column;
+}
+
+.safety-text {
+    margin-left: 19rem;
+    width: 80%;
+}
+
+.safety-content h2 {
+    font-size: 32px;
+    text-align: start;
+    margin-top: 0;
+}
+
+.safety-content p {
+    color: #c0c0c0;
+    margin-top: 1rem;
+    text-align: start;
+}
+
+.data-content {
+    display: flex;
+    align-items: center;
+}
+
+.data-img img {
+    width:45%;
+    margin-left: 10rem;
+    opacity: 100%;
+}
+
+.data-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    width: 80%;
+}
+
+.data-content h2 {
+    font-size: 32px;
+    text-align: start;
+    margin-top: 0;
+}
+
+.data-content p {
+    color: #c0c0c0;
+    margin-top: 1rem;
+    text-align: start;
+}
+
+.value-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+
+.value-img img {
+    width:53%;
+    margin-left: 10rem;
+    opacity: 100%;
+    display: block;
+    flex-direction: column;
+}
+
+.value-text {
+    margin-left: 19rem;
+    width: 80%;
+}
+
+.value-content h2 {
+    font-size: 32px;
+    text-align: start;
+}
+
+.value-content p {
+    color: #c0c0c0;
+    margin-top: 1rem;
+    text-align: start;
+}
+
+.get-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.get-about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.get-about h2 {
+    font-size: 39px;
+    text-align: justify;
+}
+
+.get-about p {
+    color: #c0c0c0;
+    text-align: justify;
+}
+.get-about button {
+    margin-top: 3rem;
+    width: 30rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    background-color: #005CA6;
+    color: #ffffff;
+    border-radius: 10px;
+    border: solid #005CA6;
+    cursor: pointer;
+}
+
+.get-about button:hover{
+    background-color: #004494;
+}

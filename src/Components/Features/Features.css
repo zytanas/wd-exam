@@ -1,0 +1,293 @@
+.feature-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .feature-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .feature-content {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .feature-content h2 {
+    font-size: 39px;
+  }
+  
+  .feature-content p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 1rem;
+    color: #c0c0c0;
+  }
+  
+  .feature-img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .feature-img img {
+    width: 35rem;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .fans-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px; 
+  }
+  
+  .fans-img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .fans-img img {
+    width: 33rem;
+    height: auto;
+  }
+  
+  .fans-text {
+    flex: 2;
+    margin-left: 7rem;
+    width: 100%;
+  }
+  
+  .fans-text h2 {
+    font-size: 39px;
+    margin-bottom: 1rem;
+  }
+  
+  .fans-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #c0c0c0;
+  }
+  
+  .video-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .video-img {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .video-img img {
+    width: 29rem;
+    height: auto;
+    margin-right: 7rem;
+  }
+
+  .video-text {
+    flex: 1;
+  }
+
+  .video-text h2 {
+    font-size: 39px;
+    margin-bottom: 1rem;
+  }
+
+  .video-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #c0c0c0;
+    width: 35rem;
+  }
+
+  .podcast-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px; 
+  }
+  
+  .podcast-img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .podcast-img img {
+    width: 30rem;
+    height: auto;
+  }
+  
+  .podcast-text {
+    flex: 2;
+    margin-left: 10rem;
+    width: 100%;
+  }
+  
+  .podcast-text h2 {
+    font-size: 39px;
+    margin-bottom: 1rem;
+  }
+  
+  .podcast-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #c0c0c0;
+    width: 35rem;
+  }
+
+  .sms-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .sms-img {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .sms-img img {
+    width: 29rem;
+    height: auto;
+    margin-right: 7rem;
+  }
+
+  .sms-text {
+    flex: 1;
+  }
+
+  .sms-text h2 {
+    font-size: 39px;
+    margin-bottom: 1rem;
+  }
+
+  .sms-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #c0c0c0;
+    width: 40rem;
+  }
+
+  .photo-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px; 
+  }
+  
+  .photo-img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .photo-img img {
+    width: 30rem;
+    height: auto;
+  }
+  
+  .photo-text {
+    flex: 2;
+    margin-left: 10rem;
+    width: 100%;
+  }
+  
+  .photo-text h2 {
+    font-size: 39px;
+    margin-bottom: 1rem;
+  }
+  
+  .photo-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #c0c0c0;
+    width: 35rem;
+  }
+
+
+  .poll-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .poll-img {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .poll-img img {
+    width: 29rem;
+    height: auto;
+    margin-right: 7rem;
+  }
+
+  .poll-text {
+    flex: 1;
+  }
+
+  .poll-text h2 {
+    font-size: 39px;
+    margin-bottom: 1rem;
+  }
+
+  .poll-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #c0c0c0;
+    width: 40rem;
+  }
+
+  .get-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15rem;
+    margin-top: 10rem;
+}
+
+.get-content img {
+    width: 100%;
+    height: 450px;
+    opacity: 66%;
+}
+
+.get-about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.get-about h2 {
+    font-size: 39px;
+    text-align: justify;
+}
+
+.get-about p {
+    color: #c0c0c0;
+    text-align: justify;
+}
+.get-about button {
+    margin-top: 3rem;
+    width: 30rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    background-color: #005CA6;
+    color: #ffffff;
+    border-radius: 10px;
+    border: solid #005CA6;
+}
